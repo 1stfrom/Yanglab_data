@@ -4,7 +4,8 @@
 
 We focus on population-wide omics datasets. By curating these existing datasets, we can ensure the development of robust computational models.
 
-## Maize
+-----------------------
+# Maize
 
 ### Genome annotation data
 
@@ -15,7 +16,7 @@ We focus on population-wide omics datasets. By curating these existing datasets,
   - Row VCF file on HCC: `path?`
     - AGPV5 genome filtration MAF < 0.05 and MR > 0.6: `vcf` 
   - Randomly sampled 50k SNPs
-    - `data/01Genotype/282_agpv5_50.recode.vcf`
+    - GitHub Path: `data/01Genotype/282_agpv5_50.recode.vcf`
     - `data/01Genotype/282_agpv5_50k.txt`
 - RNA-seq
   - RNA-seq in seven tissues: CyVerse (Kremling et al., 2018)
@@ -42,12 +43,34 @@ We focus on population-wide omics datasets. By curating these existing datasets,
 ### Maize off-PVP lines (PVP, n=x lines)
 
 
-### Chinese Elite Inbreds (CEI, n=500 lines)
+### Chinese Elite Inbreds (CEI, n=300 lines)
 
-## Sorghum
+Some big data were stored at [OneDrive](https://uofnelincoln-my.sharepoint.com/:f:/g/personal/gxu6_unl_edu/EuJn6RPpm-FKuU9FKNs9Qg8Bpk_r52zMLq8WbqxNDgeqSQ?e=t9G35u).
+
+-----------------------
+# Sorghum
 
 ### Sorghum Association Panel (SAP, n=400 lines)
-
+- Genotype
+  - Whole genome resequencing (WGS) data (Boatwright et al., 2022)
+    - 44 milion variants including 38 million SNPs, 5 million indels and 0.17 million CNVs
+    - Filteration: minor allele frequency (maf) > 0.05, missing data < 0.3, ite heterozygosity < 0.1
+    - Raw and filtered data HCC Path `/common/schnablelab/hongyujin/SAPsnp/SNPallchrs/`
+  - Tunable genotyping by sequencing (tGBS) ~350 lines (Miao et al., 2020)
+    - Web link 'https://figshare.com/articles/dataset/Untitled_Item/11462469'
+- Phenotype
+  - In field agronomic traits
+    - github path `data/03Phenotype/SAP/`
+    - 2020 SAP Schnable lab
+    - 2021 SbDiv Schnable lab
+    - 2023 SAP Chlorophyll (by Luyang Zhang)
+  - Greenhouse seedling phenotype
+    - 346 lines HN and LH
+      - Leaf number, plant height, root and shoot fresh weight, photosynthesis traits (LICOR-600), chorophyll (large missing rate)
+  - Panicle phenotype
+    - Kyle Linders thesis?
+    - Nathan
+  - RNA-seq
 ### Sorghum Carbon-Partitioning NAM (CP-NAM, n=2,500 RILs)
 
 
